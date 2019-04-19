@@ -1,6 +1,10 @@
 *{
   margin:0;
 }
+body{
+  /* background-color: #60495A; */
+  background-color: #E7E5DF;
+}
 .content p{
   z-index: 1000;
   position:absolute;
@@ -13,9 +17,7 @@
   width:25%;
 
 }
-.content img{
-  /* filter: grayscale(100%); */
-}
+
 .navigation{
   clear:left;
 }
@@ -23,18 +25,25 @@
   overflow: hidden;
   height: 650px;
   max-height: 100%;
+
 }
 .slides figure div{
   width:20%;
   float: left;
 
-
 }
 .slides figure img{
   width:100%;
   float: left;
+  height: 650px;
+  max-height:100%;
 
-
+}
+.test{
+  height: 650px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
 }
 .slides figure{
   position: relative;
@@ -99,7 +108,7 @@
   }
 }
 .banner{
-  background-color: grey;
+  background-color: #A9ACA9;
   padding:50px;
   padding-left:10px;
   padding-right: 10px;
@@ -138,9 +147,41 @@ nav>ul>li{
   padding-left:40px;
 
 }
-.test{
-  height: 650px;
-  width: 100%;
-  background-color: rgba(0,0,0,0.5);
-  position: absolute;
+
+.project-box{
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  display: flex;
+  justify-content: space-around;
+
+}
+.projects{
+  float: left;
+  width: 30%;
+  text-align: center;
+  /* justify-content: space-around; */
+
+  background-color: #E7E5DF;
+
+}
+.projects i{
+  font-size: 8em;
+  color: #A9ACA9;
+
+}
+
+/* .projects-box h2, .projects-box div{
+  background-color: #E7E5DF;
+} */
+}
+footer {
+  clear: left;
+}
+.contacts{
+  clear: left;
+  display: flex;
+  justify-content: space-around;
+  color: #EFEEEA;
+  border: 2px;
+  background-color: white;
 }
