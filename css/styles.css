@@ -1,1 +1,13 @@
-
+.content p{
+  z-index: 1000;
+  position:absolute;
+  text-align: center;
+  width:20%;
+  padding:100px;
+}
+.content{
+  float:left;
+}
+.navigation{
+  clear:left;
+}
