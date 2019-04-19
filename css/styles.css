@@ -93,3 +93,58 @@
     left:0%;
   }
 }
+.banner{
+  background-color: grey;
+  padding:50px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+.banner p{
+
+}
+nav{
+ float:right;
+ padding-right: 0;
+
+}
+nav>ul>li{
+  display: inline;
+
+}
+.box{
+  display:flex;
+  justify-content: space-around;
+}
+.box div{
+  /* width: 40%; */
+  max-width: 100%;
+  background-color: blue;
+  margin: 30px;
+
+}
+.box div img{
+  width :400px;
+  height :400px;
+
+}
+.about{
+  text-align: center;
+  margin: 30px;
+  padding-left:40px;
+  background-color: blue;
+
+}
+
+
+/* nav>ul>li{
+  display:inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+
+}
+nav>ul>li>a{
+  text-decoration:none;
+}
+nav>ul>li>a:hover{
+  color: yellow;
+} */
