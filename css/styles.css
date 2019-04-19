@@ -11,6 +11,10 @@
 .content{
   float:left;
   width:25%;
+
+}
+.content img{
+  /* filter: grayscale(100%); */
 }
 .navigation{
   clear:left;
@@ -24,12 +28,13 @@
   width:20%;
   float: left;
 
+
 }
 .slides figure img{
-
-
   width:100%;
   float: left;
+
+
 }
 .slides figure{
   position: relative;
@@ -116,9 +121,9 @@ nav>ul>li{
   justify-content: space-around;
 }
 .box div{
-  /* width: 40%; */
+
   max-width: 100%;
-  background-color: blue;
+
   margin: 30px;
 
 }
@@ -131,20 +136,11 @@ nav>ul>li{
   text-align: center;
   margin: 30px;
   padding-left:40px;
-  background-color: blue;
 
 }
-
-
-/* nav>ul>li{
-  display:inline;
-  margin-right: 20px;
-  text-transform: uppercase;
-
+.test{
+  height: 650px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
 }
-nav>ul>li>a{
-  text-decoration:none;
-}
-nav>ul>li>a:hover{
-  color: yellow;
-} */
