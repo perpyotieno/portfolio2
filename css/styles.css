@@ -169,6 +169,7 @@ nav>ul>li{
 .box{
   display:flex;
   justify-content: space-around;
+  /* flex-wrap: wrap; */
 
 }
 .box div{
@@ -204,6 +205,7 @@ nav>ul>li{
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
   /* height: 100px; */
   /* background-color: blue; */
 }
@@ -338,4 +340,43 @@ button{
 }
 .projects:hover .pop{
   opacity: 1;
+}
+
+.arrow{
+  position: absolute;
+  margin-top: -100px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50);
+  color: White;
+  font-size: 3em;
+  font-weight: 900;
+  animation: 0.2s change infinite;
+}
+@keyframes change {
+  0%{
+    margin-top: -90px;
+  }
+  50%{
+    margin-bottom: -110px;
+    text-shadow: 0 0 10px black;
+  }
+}
+
+
+
+
+@media screen and (max-width:1045px){
+  .box{
+    flex-wrap: wrap;
+  }
+  .about{
+    min-width: 90%;
+  }
+}
+@media screen and (max-width:730px){
+  .projects{
+    width: 90%;
+  }
+
 }
