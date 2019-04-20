@@ -11,6 +11,13 @@ body{
   text-align: center;
   width:20%;
   padding:100px;
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+  font-size: 5em;
+}
+span{
+  font-size: 0.5em;
+  font-family: 'Delius', cursive;
 }
 .content{
   float:left;
@@ -128,6 +135,7 @@ nav>ul>li{
 .box{
   display:flex;
   justify-content: space-around;
+
 }
 .box div{
 
