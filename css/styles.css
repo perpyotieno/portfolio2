@@ -1,5 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
 *{
   margin:0;
+  padding: 0;
+  transition: 0.7s ease-in-out;
 }
 body{
   /* background-color: #60495A; */
@@ -11,9 +16,11 @@ body{
   text-align: center;
   width:20%;
   padding:100px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Acme', sans-serif;
   color: white;
   font-size: 5em;
+  padding-top: 200px;
+  padding-left: 15px;
 }
 span{
   font-size: 0.5em;
@@ -132,6 +139,33 @@ nav>ul>li{
   display: inline;
 
 }
+
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box{
   display:flex;
   justify-content: space-around;
@@ -153,43 +187,155 @@ nav>ul>li{
   text-align: center;
   margin: 30px;
   padding-left:40px;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
-.project-box{
-  /* margin-left: 5%;
-  margin-right: 5%; */
-  display: flex;
-  justify-content: space-around;
+.projects-box{
+  text-align: center;
+  /* margin-right: 5%; */ */
+  /* display: flex;
+  justify-content: space-around; */
+  /* width: 100vw;
+  background-color: red; */
 
+}
+.square{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* height: 100px; */
+  /* background-color: blue; */
 }
 .projects{
-  float: left;
-  width: 30%;
-  text-align: center;
-  /* justify-content: space-around; */
 
-  background-color: #E7E5DF;
+  width:30%;
+  font-size: 8em;
+
+
 
 }
 .projects i{
-  font-size: 8em;
+  margin-bottom: -100px;
   color: #A9ACA9;
+}
+.square div p{
+  font-size: 0.8em;
+}
+button{
+  padding-top: 0;
+  padding: 10px;
+  background-color: #A9ACA9;
+  /* margin-top: -100px; */
+}
+.reachout button{
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 30px;
+  border: 3px solid #EB6534;
+  background-color: #A6D9F7;
+}
+/* #projects{
+  text-align: center;
+  background-color: red;
+  border: 1px solid red; */
+
+}
+/* .projects{
+  float: left;
+  width: 30%;
+  text-align: center;
+  background-color: red; */
+
+  /* justify-content: space-around; */
+
+  /* background-color: #E7E5DF; */
+
+}
+.projects a i{
+
 
 }
 
-/* .projects-box h2, .projects-box div{
-  background-color: #E7E5DF;
-} */
+.projects-box h2, .projects-box div{
+
 }
-footer {
-  clear: left;
+}
+#contacts{
+  /* float: left; */
+  /* width: 100%;
+  display: block;
+  background: red;
+  color: green; */
 }
 .contacts{
-  clear: left;
+  /* clear: left;
   display: flex;
   justify-content: space-around;
   color: #EFEEEA;
   border: 2px;
-  background-color: white;
+ background-color: white; */
+}
+#contacts-form {
+  float:right;
+  width:500px;
+  z-index: 1;
+  background-position: relative;
+  padding:30px;
+  margin:0 auto 100px;
+  margin-top: -7%;
+  margin-bottom: 1%;
+  /* text-align: center; */
+}
+#contacts-form input{
+  outline: 1;
+  width: 100%;
+  border: 0;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-sizing:border-box;
+  background-color:#f2f2f2;
+}
+#contacts-form button{
+  background-color: #0a840e;
+  color: #ffffff;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  border: 0;
+}
+.try{
+  float: right;
+  margin-top: 0;
+}
+.image{
+  text-align: center;
+}
+.image h1{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#contact h2{
+  margin-bottom: 20px;
+}
+.pop{
+  margin-top: -295px;
+  height: 100%;
+  width:100%;
+  background-color: #A6D9F7;
+  position: relative;
+  font-size: 0.1em;
+  opacity: 0;
+}
+.projects{
+  background-color: ;
+  min-height: 350px;
+}
+.projects:hover .pop{
+  opacity: 1;
 }
