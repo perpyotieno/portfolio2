@@ -7,7 +7,6 @@ html{
   transition: 0.7s ease-in-out;
 }
 body{
-  /* background-color: #60495A; */
   background-color: #E7E5DF;
 }
 p{
@@ -32,9 +31,7 @@ span{
 .content{
   float:left;
   width:25%;
-
 }
-
 .navigation{
   clear:left;
 }
@@ -42,19 +39,16 @@ span{
   overflow: hidden;
   height: 650px;
   max-height: 100%;
-
 }
 .slides figure div{
   width:20%;
   float: left;
-
 }
 .slides figure img{
   width:100%;
   float: left;
   height: 650px;
   max-height:100%;
-
 }
 .test{
   height: 650px;
@@ -68,9 +62,8 @@ span{
   margin: 0;
   left: 0;
   animation: 20s slidy infinite;
-
-
 }
+
 @keyframes slidy {
   0%{
     left:0%;
@@ -128,17 +121,12 @@ span{
   background-color: #A9ACA9;
   padding:20px;
   padding-left:10px;
-  /* padding-right: 50px; */
   width: 100%;
-}
-.banner p{
-
 }
 nav{
  float:right;
  padding-right: 0;
  margin-right: 20px;
-
 }
 nav>ul>li{
   display: inline;
@@ -157,84 +145,42 @@ nav>ul>li>a{
   font-size: 2em;
   color: #393E41;
 }
-
-
-
-
-
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .box{
   display:flex;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
-
 }
 .box div{
-
   max-width: 100%;
-
   margin: 30px;
-
 }
 .box div img{
   width :400px;
   height :400px;
-
 }
 .about{
   text-align: center;
   margin: 30px;
   padding-left:40px;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 .projects-box{
   text-align: center;
-  /* margin-right: 5%; */ */
-  /* display: flex;
-  justify-content: space-around; */
-  /* width: 100vw;
-  background-color: red; */
-
 }
 .square{
   display: flex;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  /* height: 100px; */
-  /* background-color: blue; */
 }
 .projects{
-
   width:30%;
   font-size: 8em;
-
-
-
 }
 .projects i{
   margin-bottom: -100px;
@@ -247,7 +193,6 @@ button{
   padding-top: 0;
   padding: 10px;
   background-color: #A9ACA9;
-  /* margin-top: -100px; */
 }
 .reachout button{
   padding: 20px;
@@ -261,47 +206,6 @@ button{
   border: 3px solid #EB6534;
   background-color: #A6D9F7;
 }
-/* #projects{
-  text-align: center;
-  background-color: red;
-  border: 1px solid red; */
-
-}
-/* .projects{
-  float: left;
-  width: 30%;
-  text-align: center;
-  background-color: red; */
-
-  /* justify-content: space-around; */
-
-  /* background-color: #E7E5DF; */
-
-}
-.projects a i{
-
-
-}
-
-.projects-box h2, .projects-box div{
-
-}
-}
-#contacts{
-  /* float: left; */
-  /* width: 100%;
-  display: block;
-  background: red;
-  color: green; */
-}
-.contacts{
-  /* clear: left;
-  display: flex;
-  justify-content: space-around;
-  color: #EFEEEA;
-  border: 2px;
- background-color: white; */
-}
 #contacts-form {
   float:right;
   width:500px;
@@ -311,7 +215,6 @@ button{
   margin:0 auto 100px;
   margin-top: -7%;
   margin-bottom: 1%;
-  /* text-align: center; */
 }
 #contacts-form input{
   outline: 1;
@@ -399,9 +302,6 @@ button{
     text-shadow: 0 0 10px black;
   }
 }
-
-
-
 
 @media screen and (max-width:1045px){
   .box{
