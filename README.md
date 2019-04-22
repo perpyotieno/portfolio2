@@ -6,7 +6,7 @@ This Portfolio is an explanation of who perpetua Mary is. It includes her educat
 ## Setup/Installation Requirements
 * To view this website one needs to have access a computing devices i.e Computer,Laptop, Smart-phone and Internet.
 ## Website link
-https://perpyotieno.github.io/portfolio/ - The link to the live site a Git hub Pages.
+https://perpyotieno.github.io/portfolio2/ - The link to the live site a Git hub Pages.
 ## Authors
 Perpetua Mary
 ## Acknowledgments
